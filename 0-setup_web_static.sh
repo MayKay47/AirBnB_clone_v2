@@ -13,10 +13,9 @@ sudo mkdir -p /data/web_static/releases/test /data/web_static/shared
 # Give ownership to the ubuntu user and group
 sudo chown -R ubuntu /data/
 sudo chgrp -R ubuntu /data/
-sudo chown -hR ubuntu:ubuntu /data/
 
 # Create a fake HTML file for testing
-echo "<html><body>HBNB Static Test</body></html" | sudo tee /data/web_static/releases/test/index.html
+echo "<html><body>HBNB Static Testing</body></html" > /data/web_static/releases/test/index.html
 
 # create a symbolic link
 # -s: symbolic link, -f: forces if the link already exists
