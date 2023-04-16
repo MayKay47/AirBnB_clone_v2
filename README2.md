@@ -101,4 +101,4 @@ To summarize, the "`root`" directive defines the top-level directory where Nginx
 
 Note that when using the "`alias`" directive, it's important to use the absolute path to the directory, and to include a trailing slash in both the "location" and "`alias`" directives.
 
-
+**CI/CD** stands for Continuous Integration/Continuous Deployment, which is a software engineering approach that automates the process of building, testing, and deploying software changes. The main goal of CI/CD is to minimize the time between writing a code change and deploying it to production while ensuring the quality and stability of the software.
