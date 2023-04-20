@@ -18,7 +18,7 @@ sudo chown -R ubuntu /data/
 sudo chgrp -R ubuntu /data/
 
 # create a test HTML file
-echo "Testing! Testing 1 , 2  1 , 2" > /data/web_static/releases/test/index.html
+echo "HBNB Static Testing" > /data/web_static/releases/test/index.html
 
 # create a symbolic link to the test HTML file
 #---'ln -s' creates a symbolic link
