@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Set up my web servers for deployment of web-static
+# Set up my web servers for deployment of web-static.
 
 # Install Nginx if it's not already installed
 if ! [ -x "$(command -v nginx)" ]; then
